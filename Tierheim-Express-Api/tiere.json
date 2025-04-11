@@ -2,7 +2,7 @@
   {
     "id": 1,
     "name": "Moro",
-    "art": "Katze"
+    "art": "Hund"
   },
   {
     "id": 2,
@@ -10,12 +10,53 @@
     "art": "Katze"
   },
   {
-    "id": 3,
-    "name": "Haku"
+    "id": 4,
+    "name": "Gustaf",
+    "art": "Fisch"
   },
   {
     "id": 4,
-    "name": "Haku",
-    "art": "Katze"
+    "name": "Gustaf",
+    "art": "Fisch"
+  },
+  {
+    "id": 5,
+    "name": "Gustaf",
+    "art": "Fisch"
+  },
+  {
+    "id": 6,
+    "name": "Gustaf",
+    "art": "Fisch"
+  },
+  {
+    "id": 7,
+    "name": "Gustaf",
+    "art": "Fisch"
+  },
+  {
+    "id": 8,
+    "name": "Gustaf",
+    "art": "Fisch"
+  },
+  {
+    "id": 9,
+    "name": "Gustaf",
+    "art": "Fisch"
+  },
+  {
+    "id": 10,
+    "name": "Gustaf",
+    "art": "Fisch"
+  },
+  {
+    "id": 11,
+    "name": "Gustaf",
+    "art": "Fisch"
+  },
+  {
+    "id": 12,
+    "name": "Gustaf",
+    "art": "Fisch"
   }
 ]
