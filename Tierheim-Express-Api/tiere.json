@@ -1,15 +1,21 @@
 [
   {
     "id": 1,
+<<<<<<< HEAD
     "name": "Moro",
     "art": "Hund"
+=======
+    "name": "Haku",
+    "art": "Katze"
+>>>>>>> c8db401bb9efde3cc53eaf00287a093deac93ec9
   },
   {
     "id": 2,
-    "name": "Haku",
+    "name": "Moro",
     "art": "Katze"
   },
   {
+<<<<<<< HEAD
     "id": 4,
     "name": "Gustaf",
     "art": "Fisch"
@@ -58,5 +64,10 @@
     "id": 12,
     "name": "Gustaf",
     "art": "Fisch"
+=======
+    "id": 3,
+    "name": "Timo",
+    "art": "Hund"
+>>>>>>> c8db401bb9efde3cc53eaf00287a093deac93ec9
   }
 ]
