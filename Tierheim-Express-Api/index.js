@@ -36,13 +36,6 @@ app.get("/tiere", (req, res) => {
     }
 });
 
-<<<<<<< HEAD
-app.post("/tiere", (req, res) => {
-    const tiere = readFile();
-    const { name, art } = req.body
-
-    if (name && art) {
-=======
 
 app.post("/tiere" , (req,res) => {
     try {
@@ -63,7 +56,6 @@ app.post("/tiere" , (req,res) => {
             return res.status(400).json({error: "Name muss mind. 3 Buchstaben beinhalten!"})
         }
     
->>>>>>> c8db401bb9efde3cc53eaf00287a093deac93ec9
         const newTier = {
             id: tiere.length + 1, // besser (komplexere Logik) -> tiere.length > 0 ? Math.max(...tiere.map(a => a.id)) + 1 : 1;
             name: name,
@@ -79,37 +71,6 @@ app.post("/tiere" , (req,res) => {
 })
 
 app.put("/tiere/:id", (req, res) => {
-<<<<<<< HEAD
-    const tiere = readFile();
-    const id = req.params.id;
-    const { name, art } = req.body;
-    const index = tiere.findIndex(tier => tier.id == id);
-    if (index !== -1) {
-        tiere[index].name = name;
-        tiere[index].art = art;
-        writeFile(tiere);
-        res.json(tiere[index]);
-    }
-    else {
-        res.send("Tier nicht gefunden");
-    }
-})
-
-app.delete("/tiere/:id", (req, res) => {
-    const tiere = readFile();
-    const id = req.params.id;
-    const index = tiere.findIndex(tier => tier.id == id);
-    if (index !== -1) {
-        tiere.splice(index, 1);
-        writeFile(tiere);
-        res.json(tiere);
-    }
-    else {
-        res.send("Tier nicht gefunden");
-    }
-})
-
-=======
     try {
         const id = req.params.id;
         const tiere = readFile(); // Datei aufrufen
@@ -163,6 +124,5 @@ app.get("/search", (req, res) => {
     }
     res.json(tiere);
 })
->>>>>>> c8db401bb9efde3cc53eaf00287a093deac93ec9
 
 app.listen(5005);
